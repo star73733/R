@@ -1,0 +1,6 @@
+install.packages("tidyverse")
+install.packages("heaven")
+library(tidyverse)
+library(haven)
+ffc.stata <- read_dta(file = "background.dta") 
+ffc.csv <- read_csv(file = "background.csv")
